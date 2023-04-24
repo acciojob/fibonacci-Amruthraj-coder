@@ -1,7 +1,7 @@
 function fibonacci(num) {
 // your code here
 	let arr=[0,1];
-	if(mun>3){
+	if(mun>=3){
 	for(let i=2;i<num;i++){
 		arr.push(arr[i-1]+arr[i-2]);
 	}
